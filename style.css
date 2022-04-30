@@ -1,7 +1,7 @@
 .news {
   display: inline-block;
   position: relative;
-  width:45%;
+  width: 45%;
   min-width: 270px;
   height: 7vw;
   min-height: 130px;
@@ -11,17 +11,28 @@
   overflow: hidden;
 }
 
-.gradient:hover {
+.news:hover {
   box-shadow: 4px 5px 6px #06102673;
   transition: 0.2s ease;
 }
 
-.imgNews {
-  width: 100%;
+.news:hover .imgNews {
+  transform: scale(1.05);
+  transition: 0.3s ease-out;
 }
 
-.gradient{
-  width:100%;
+.news:hover .gradient {
+  transition: 0.001s ease;
+  opacity: 0;
+}
+
+.imgNews {
+  width: 100%;
+  transition: 0.15s ease-out;
+}
+
+.gradient {
+  width: 100%;
   min-width: 270px;
   height: 7vw;
   min-height: 130px;
@@ -30,7 +41,9 @@
   bottom: 0;
   right: 0;
   left: 0;
-  background: linear-gradient(to top, #000 -10%, rgba(0,0,0,0) 70%);
+  background: linear-gradient(to top, #000 -10%, rgba(0, 0, 0, 0) 70%);
+  transition: 0.35s ease-in-out;
+  opacity: 100;
 }
 
 .textNews {
