@@ -21,6 +21,15 @@
 
     <!-- ======================================================================================================================================= -->
 
+
+    <!-- JS для раскрытия списка -->
+    <script>function resize(x) {
+        x.style.setProperty('--sovet-height', control.offsetWidth * 1.25 + "px");
+        if (document.documentElement.clientWidth <= 991) x.style.setProperty('--sovet-height', control.offsetWidth * 1.45 + "px");
+        else x.style.setProperty('--sovet-height', control.offsetWidth * 1.25 + "px");
+      }
+    </script>
+
     <b style="font-size: 16pt;"><a href="bibliotekar-goda/"></a></b> <br>
     <br>
     <span style="font-size: 16pt;"><a href="bibliotekar-goda/"></a></span>
@@ -145,8 +154,7 @@
       </li>
     </ul>
     <br>
-    <p
-      style="text-align: justify; background: #001a640d; padding: 8px; border-radius: 6px; border: 1px solid #001a6429;">
+    <p class="note">
       <b>С 2020 года по Распоряжению Комитета общего и профессионального образования Ленинградской области № 657-У от
         26.03.2020 года, конкурс «Библиотекарь года» входит отдельной номинацией в состав «Ленинградского областного
         конкурса профессионального педагогического мастерства в 2020 году»</b>
@@ -197,18 +205,28 @@
 
     </div>
 
-
     <br>
 
-
-
-
-
-
-
-
-    <div>
+    <div class="buttContainer">
+      <details class="sovet" onclick="resize(this);">
+        <summary>Совет №7-8</summary><img alt="ЧитаемВместе 7-8 страница"
+          src="/upload/medialibrary/a95/fi0iagudbrrclu3623wx2jhaipmo58yi.jpg" style="width:90%;"
+          title="ЧитаемВместе 7-8 страница">
+      </details>
+      <details class="sovet" onclick="resize(this);">
+        <summary>Совет №7-8</summary>
+        <a href="#">
+          <div class="ssilkabutt">Day 1</div>
+        </a>
+      </details>
     </div>
+
+
+
+
+
+
+
     <h2><span style="color: #ff0000;"><b>Итоги конкурса в 2021 году</b></span></h2>
     <b> </b><span style="color: #ff0000;"><b> </b></span><b> </b>
     <p>
@@ -494,7 +512,7 @@
       <br>
     </p>
     <p><br></p>
-    <p>
+    <p class="note">
       <b><span style="color: #000000;">С 2020 года по Распоряжению Комитета общего и профессионального образования
           Ленинградской области № 657-У от 26.03.2020 года, конкурс «Педагог- психолог года» входит отдельной номинацией
           в состав «Ленинградского областного конкурса профессионального педагогического мастерства в 2020
@@ -684,7 +702,7 @@
       href="https://loiro.ru/files/pages/Folder/%D0%A0%D0%B0%D1%81%D0%BF%D0%BE%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5.pdf"
       target="_blank"><b>Распоряжение о проведении конкурса</b></a><br>
     <hr>
-    <p>
+    <p class="note">
       <b><span style="color: #000000;">С 2020 года по Распоряжению Комитета общего и профессионального образования
           Ленинградской области № 657-У от 26.03.2020 года, конкурс «Учитель года» входит отдельной номинацией в состав
           «Ленинградского областного конкурса профессионального педагогического мастерства в 2020 году»</span></b>

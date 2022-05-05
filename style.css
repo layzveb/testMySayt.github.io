@@ -58,3 +58,73 @@
   color: white;
   font-size: 17pt;
 }
+
+.note {
+  text-align: justify;
+  background: #001a640d;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #001a6429;
+}
+
+.ssilkabutt {
+  text-decoration: none;
+  color: #FFFF;
+  background-color: rebeccapurple;
+  padding: 10px;
+}
+
+
+/* выпадающий список */
+.buttContainer {
+  grid-template-columns: 20% 20%;
+  display: grid;
+  grid-column-gap: 20%;
+  justify-content: center;
+}
+
+.sovet {
+  position: relative;
+  text-align: center;
+  font-size: 14pt;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffff;
+  align-content: center;
+}
+
+.sovet[open] {
+  height: var(--sovet-height);
+  overflow: hidden;
+  margin-bottom: 10px;
+  background: #157fc4b5;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.5s ease-out;
+}
+
+.sovet:not([open]):hover {
+  color: #e7f9ff;
+  /* font-size: 14pt; */
+  font-weight: 300;
+  height: 30px;
+  border-radius: 7px;
+  transition: 0.2s ease;
+}
+
+.sovet:not([open]) {
+  font-weight: 100;
+  margin-bottom: 5px;
+  background-color: white;
+  height: 30px;
+  transition: 0.3s ease;
+  background: #157fc4b5;
+  border-radius: 7px;
+}
+
+/* убирает треугольник слева от вып списка */
+details>summary {
+  list-style: none;
+  position: relative;
+}
