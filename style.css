@@ -72,6 +72,14 @@
   color: #FFFF;
   background-color: rebeccapurple;
   padding: 10px;
+  border-top: white solid 2px;
+  transition: 0.3s ease-in-out;
+}
+
+.ssilkabutt:hover {
+  border-top: rgb(165, 214, 255) solid 2px;
+  color: #20a6ffb5;
+  transition: 0.3s ease-in-out;
 }
 
 
@@ -106,9 +114,9 @@
 
 .sovet:not([open]):hover {
   color: #e7f9ff;
-  /* font-size: 14pt; */
+  font-size: 14pt;
   font-weight: 300;
-  height: 30px;
+  /* height: 30px; */
   border-radius: 7px;
   transition: 0.2s ease;
 }
@@ -117,7 +125,7 @@
   font-weight: 100;
   margin-bottom: 5px;
   background-color: white;
-  height: 30px;
+  /* height: 30px; */
   transition: 0.3s ease;
   background: #157fc4b5;
   border-radius: 7px;
@@ -127,4 +135,19 @@
 details>summary {
   list-style: none;
   position: relative;
+  line-height: 30pt;
+
+  /* отключает выделение текста */
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Chrome/Safari/Opera */
+  -khtml-user-select: none;
+  /* Konqueror */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently not supported by any browser */
 }

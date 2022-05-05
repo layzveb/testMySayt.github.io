@@ -1,0 +1,13 @@
+{
+    "editor.scrollbar.horizontal": "auto",
+    "editor.scrollbar.horizontalScrollbarSize": 5,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollBeyondLastColumn": 1,
+    "editor.smoothScrolling": true,
+    "editor.unfoldOnClickAfterEndOfLine": true,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.fontSize": 12,
+    "editor.fontFamily": "'Source Code Pro', monospace, Consolas, 'Courier New', monospace",
+    "editor.formatOnSave": true
+}
