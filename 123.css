@@ -1,4 +1,167 @@
-body{
-  background-color: black;
-  background: black;
+.eCEgN {
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+    font-family: Rocketfont;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: rgb(250, 250, 250);
+    text-shadow: rgb(138, 138, 138) 0px 0px 20px;
+    display: grid;
+    -webkit-box-pack: center;
+    place-content: center;
+    grid-auto-rows: max-content;
+    text-transform: uppercase;
+    font-variant-numeric: tabular-nums;
+    background: linear-gradient(263.87deg, rgb(115, 255, 0) 0%, rgb(92, 36, 252) 100%);
+    box-shadow: rgba(25, 201, 245, 0.1) 0px 10px 20px, rgba(92, 36, 252, 0.1) 0px 10px 20px, rgb(148, 78, 245) 0px -2px 4px inset, rgba(148, 78, 245, 0.6) 0px -8px 8px inset;
+    cursor: pointer;
+}
+.cfDeYr {
+    background: rgb(27, 21, 54);
+    border-radius: 14px;
+    height: 100%;
+    border: none;
+    padding: 3px;
+    position: relative;
+}
+
+.cfDeYr::after {
+    content: "";
+    position: absolute;
+    width: 101px;
+    height: 3px;
+    bottom: -10px;
+    left: calc(50% - 50.5px);
+    border-radius: 12px 12px 0px 0px;
+    background: linear-gradient(263.87deg, rgb(148, 78, 245) 0%, rgb(92, 36, 252) 100%);
+}
+
+.bQyHBg {
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+    font-family: Rocketfont;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: rgb(250, 250, 250);
+    text-shadow: rgb(138, 138, 138) 0px 0px 20px;
+    display: grid;
+    -webkit-box-pack: center;
+    place-content: center;
+    grid-auto-rows: max-content;
+    text-transform: uppercase;
+    font-variant-numeric: tabular-nums;
+    background: linear-gradient(263.87deg, rgb(245, 78, 118) 0%, rgb(252, 36, 75) 100%);
+    box-shadow: rgba(245, 25, 65, 0.1) 0px 10px 20px, rgba(252, 36, 101, 0.1) 0px 10px 20px, rgb(245, 78, 118) 0px -2px 4px inset, rgba(245, 78, 128, 0.6) 0px -8px 8px inset;
+    cursor: pointer;
+}
+
+.jTepev {
+    background: rgb(27, 21, 54);
+    border-radius: 14px;
+    height: 100%;
+    border: none;
+    padding: 3px;
+    position: relative;
+}
+
+.jTepev::after {
+    content: "";
+    position: absolute;
+    width: 101px;
+    height: 3px;
+    bottom: -10px;
+    left: calc(50% - 50.5px);
+    border-radius: 12px 12px 0px 0px;
+    background: linear-gradient(263.87deg, rgb(245, 78, 118) 0%, rgb(252, 36, 75) 100%);
+}
+
+.WbBBF {
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+    font-family: Rocketfont;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: rgb(250, 250, 250);
+    text-shadow: rgb(138, 138, 138) 0px 0px 20px;
+    display: grid;
+    -webkit-box-pack: center;
+    place-content: center;
+    grid-auto-rows: max-content;
+    text-transform: uppercase;
+    font-variant-numeric: tabular-nums;
+    cursor: pointer;
+}
+
+.bcklQT {
+    opacity: 0.8;
+    pointer-events: none;
+}
+
+.bcklQT::after {
+    content: "";
+    position: absolute;
+    width: 101px;
+    height: 3px;
+    bottom: -10px;
+    left: calc(50% - 50.5px);
+    border-radius: 12px 12px 0px 0px;
+}
+
+.lbOJTu {
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+    font-family: Rocketfont;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: rgb(250, 250, 250);
+    text-shadow: rgb(138, 138, 138) 0px 0px 20px;
+    display: grid;
+    -webkit-box-pack: center;
+    place-content: center;
+    grid-auto-rows: max-content;
+    text-transform: uppercase;
+    font-variant-numeric: tabular-nums;
+    background: linear-gradient(263.87deg, rgb(253, 187, 78) 0%, rgb(245, 103, 25) 100%);
+    box-shadow: rgba(253, 187, 78, 0.1) 0px 10px 20px, rgba(253, 187, 78, 0.1) 0px 10px 20px, rgb(253, 187, 78) 0px -2px 4px inset, rgba(253, 187, 78, 0.6) 0px -8px 8px inset;
+    cursor: pointer;
+}
+
+.qrpMI {
+    background: rgb(27, 21, 54);
+    border-radius: 14px;
+    height: 100%;
+    border: none;
+    padding: 3px;
+    position: relative;
+}
+
+.qrpMI::after {
+    content: "";
+    position: absolute;
+    width: 101px;
+    height: 3px;
+    bottom: -10px;
+    left: calc(50% - 50.5px);
+    border-radius: 12px 12px 0px 0px;
+    background: linear-gradient(263.87deg, rgb(253, 187, 78) 0%, rgb(245, 103, 25) 100%);
 }
