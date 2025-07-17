@@ -177,3 +177,68 @@
     border-radius: 12px 12px 0px 0px;
     background: linear-gradient(263.87deg, rgb(253, 187, 78) 0%, rgb(245, 103, 25) 100%);
 }
+
+.iWlaNO {
+    height: 65px;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 8px;
+    background: rgb(41, 24, 84);
+    border-radius: 16px;
+    border: 1px solid rgb(120, 57, 248);
+}
+
+.guNMaT {
+    margin-left: 6px;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+.nogVS {
+    width: 132px;
+    height: 49px;
+    background: linear-gradient(263.87deg, rgb(148, 78, 245) 0%, rgb(92, 36, 252) 100%), rgb(117, 62, 194);
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+}
+
+.nogVS h2 {
+    font-family: Rocketfont;
+    padding-top: 2px;
+    font-size: 16px;
+    margin: 1px 0px -1px;
+    line-height: 28px;
+    height: 21px;
+    font-weight: normal;
+}
+
+.nogVS span {
+    font-family: Manrope;
+    font-size: 12px;
+    line-height: 26px;
+    letter-spacing: -0.0023em;
+    font-weight: normal;
+}
+
+.guNMaT span {
+    font-family: Manrope;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: -0.0011em;
+    font-weight: normal;
+    color: rgb(223, 229, 242);
+}
+
+.guNMaT h2 {
+    font-family: Rocketfont;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0px;
+    color: white;
+    font-weight: normal;
+}
