@@ -98,7 +98,8 @@
     letter-spacing: 0.06em;
     text-align: center;
     color: rgb(250, 250, 250);
-    text-shadow: rgb(138, 138, 138) 0px 0px 20px;
+    text-shadow: none;
+    background: none;
     display: grid;
     -webkit-box-pack: center;
     place-content: center;
@@ -130,6 +131,7 @@
     bottom: -10px;
     left: calc(50% - 50.5px);
     border-radius: 12px 12px 0px 0px;
+    background: none;
 }
 
 
